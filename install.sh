@@ -8,7 +8,7 @@ install_gocqhttp() {
   echo "开始安装 go-cqhttp"
   read -p "输入机器人 QQ：" qq
   read -p "输入机器人 QQ密码：" pwd
-  wget https://github.com/Mrs4s/go-cqhttp/releases/download/v0.9.40-fix4/go-cqhttp-v0.9.40-fix4-linux-amd64.tar.gz
+  wget https://github.com.cnpmjs.org/Mrs4s/go-cqhttp/releases/download/v0.9.40-fix4/go-cqhttp-v0.9.40-fix4-linux-amd64.tar.gz
   tar -xvf go-cqhttp-v0.9.40-fix4-linux-amd64.tar.gz
   rm -rf go-cqhttp-v0.9.40-fix4-linux-amd64.tar.gz
   mkdir gocqhttp
@@ -70,7 +70,7 @@ install_gocqhttp() {
 install_ELF_RSS() {
   #  curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
   #  sudo systemctl start docker
-  git clone https://github.com/Quan666/ELF_RSS.git
+  git clone https://github.com.cnpmjs.org/Quan666/ELF_RSS.git
   cd ELF_RSS
   docker build -t elfrss:latest .
 
